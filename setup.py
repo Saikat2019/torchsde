@@ -40,7 +40,7 @@ setuptools.setup(
     url="https://github.com/google-research/torchsde",
     packages=setuptools.find_packages(exclude=['benchmarks', 'diagnostics', 'examples', 'tests']),
     install_requires=[
-        "numpy>=1.19",
+        "numpy==1.26.4",
         "scipy>=1.5",
         "torch>=1.6.0",
         "trampoline>=0.1.2",
